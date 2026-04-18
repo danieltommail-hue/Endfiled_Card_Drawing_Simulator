@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="animate_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>600</height>
+     </size>
+    </property>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>600</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>800</width>
+       <height>600</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>800</width>
+       <height>600</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="main_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>600</height>
+     </size>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>735</x>
+       <y>140</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>总抽数</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="create_log">
+     <property name="geometry">
+      <rect>
+       <x>582</x>
+       <y>520</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>创建历史记录</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="origeometry_label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>33</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>衍质源石</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="chartered_permit_label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>63</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>特许寻访凭证</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="character_pull_one">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>430</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>角色单抽</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>60</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前武器池</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="present_character_pool">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>120</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="arsenal_ticket_label">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>63</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>武库配额</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="arsenal_ticket">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>60</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="chartered_permit">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="enter_acquisition_center">
+     <property name="geometry">
+      <rect>
+       <x>582</x>
+       <y>440</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>采购中心</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="check_character_log">
+     <property name="geometry">
+      <rect>
+       <x>582</x>
+       <y>480</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>角色历史记录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="arsenal_pull_ten">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>500</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>武器十连</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="six_star_guarantee_count">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>210</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="basic_permit">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>30</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="check_arsenal_log">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>480</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>武器历史记录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="set_arsenal_pool">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>60</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置武器池</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="origeometry">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="oroberyl_label">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>33</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>合成玉</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="character_pull_ten">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>430</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>角色十连</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="spectral_permit_label">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>63</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>卡池寻访凭证</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="present_arsenal_pool">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>60</y>
+       <width>120</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="spectral_permit">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>60</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>611</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="3">
+       <widget class="QGraphicsView" name="graphicsView_4"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QGraphicsView" name="graphicsView_6"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QGraphicsView" name="graphicsView_5"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QGraphicsView" name="graphicsView_8"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QGraphicsView" name="graphicsView_3"/>
+      </item>
+      <item row="0" column="1">
+       <widget class="QGraphicsView" name="graphicsView_2"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QGraphicsView" name="graphicsView_9"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QGraphicsView" name="graphicsView_7"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QGraphicsView" name="graphicsView_1"/>
+      </item>
+      <item row="1" column="4">
+       <widget class="QGraphicsView" name="graphicsView_10"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="set_character_pool">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>20</y>
+       <width>80</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置角色池</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="basic_permit_label">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>33</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>基础寻访凭证</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="total_count">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>160</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>250</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>跳过动画</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="oroberyl">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>30</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>735</x>
+       <y>190</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>小保底</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="save_log">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>520</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存历史记录</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>20</y>
+       <width>60</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当前角色池</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>仓库</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>角色</string>
+     </property>
+     <addaction name="actioncheck_gained_character"/>
+     <addaction name="actionquick_check_character_potential_phase"/>
+    </widget>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>武器</string>
+     </property>
+     <addaction name="actioncheck_gained_arsenal"/>
+     <addaction name="actionquick_check_arsenal_potential_phase"/>
+    </widget>
+    <addaction name="menu_2"/>
+    <addaction name="menu_3"/>
+    <addaction name="actioncheck_special_stock"/>
+    <addaction name="actiontoken_aic_quota_exchange"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actioncheck_gained_character">
+   <property name="text">
+    <string>查看拥有的角色</string>
+   </property>
+  </action>
+  <action name="actionquick_check_character_potential_phase">
+   <property name="text">
+    <string>一键提升潜能</string>
+   </property>
+  </action>
+  <action name="actioncheck_gained_arsenal">
+   <property name="text">
+    <string>查看拥有的武器</string>
+   </property>
+  </action>
+  <action name="actionquick_check_arsenal_potential_phase">
+   <property name="text">
+    <string>一键提升潜能</string>
+   </property>
+  </action>
+  <action name="actiontoken_aic_quota_exchange">
+   <property name="text">
+    <string>信物兑换集成配额</string>
+   </property>
+  </action>
+  <action name="actioncheck_special_stock">
+   <property name="text">
+    <string>查看其他物资</string>
+   </property>
+  </action>
+  <action name="actionvolume">
+   <property name="text">
+    <string>volume</string>
+   </property>
+  </action>
+  <action name="actionanimate">
+   <property name="text">
+    <string>animate</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,25 @@
+name,type,cost,cost_type,gained,limit,content,content_in_text,path
+全面人才组合包,组合包,128,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 10.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 2000.0}",特许寻访凭证：10；武库配额：2000,0.0
+人事支援组合包,组合包,98,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 10.0, 'arsenal_ticket': 0.0}",基础寻访凭证：10；折金票：10万,0.0
+协议流源组合包,组合包,198,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 10.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 2000.0}",特许寻访凭证：10；武库配额：2000；存续的痕迹：10,0.0
+每月素材组合包,组合包,98,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",折金票：10万；高级认知载体：10；武器检查套组：25；协议圆盘组：20；重型强固摸具：20；协议棱柱组：50；高级培养自选箱：20,0.0
+每周素材组合包,组合包,30,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",折金票：3万；初级认知载体：120；武器检查装置：240,0.0
+特惠武库配额包,组合包,88,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 2000.0}",武库配额：2000,0.0
+月卡,组合包,30,rmb,0,1.0,"{'origeometry': 12.0, 'oroberyl': 6000.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：12；嵌晶玉：6000；应急理智加强剂：30,0.0
+宏愿兵装组合包,组合包,6,rmb,0,1.0,"{'origeometry': 6.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",宏愿：1；衍质源石：6；,0.0
+特许寻访组合包,组合包,98,rmb,0,1.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 10.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",卡池寻访凭证：10；折金票：8万,0.0
+开采衍质源石,源石交易所,6,rmb,0,inf,"{'origeometry': 3.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：3,0.0
+开采一组衍质源石,源石交易所,30,rmb,0,inf,"{'origeometry': 15.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：15,0.0
+开采一堆衍质源石,源石交易所,98,rmb,0,inf,"{'origeometry': 50.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：50,0.0
+开采一袋衍质源石,源石交易所,198,rmb,0,inf,"{'origeometry': 102.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：102,0.0
+开采一盒衍质源石,源石交易所,328,rmb,0,inf,"{'origeometry': 171.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：171,0.0
+开采一箱衍质源石,源石交易所,648,rmb,0,inf,"{'origeometry': 350.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：350,0.0
+开采衍质源石（双倍）,源石交易所,6,rmb,0,1.0,"{'origeometry': 6.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：6,0.0
+开采一组衍质源石（双倍）,源石交易所,30,rmb,0,1.0,"{'origeometry': 24.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：24,0.0
+开采一堆衍质源石（双倍）,源石交易所,98,rmb,0,1.0,"{'origeometry': 84.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：84,0.0
+开采一袋衍质源石（双倍）,源石交易所,198,rmb,0,1.0,"{'origeometry': 170.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：170,0.0
+开采一盒衍质源石（双倍）,源石交易所,328,rmb,0,1.0,"{'origeometry': 282.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：282,0.0
+开采一箱衍质源石（双倍）,源石交易所,648,rmb,0,1.0,"{'origeometry': 560.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",衍质源石：560,0.0
+特许寻访凭证,集成配额交易,25,bond_quota,0,inf,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 1.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",特许寻访凭证：1,0.0
+卡池寻访凭证,保障配额交易,70,aic_quota,0,5.0,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 0.0, 'spectral_permit': 1.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",卡池寻访凭证：1,0.0
+寻访情报书,卡池返利,0,rmb,0,inf,"{'origeometry': 0.0, 'oroberyl': 0.0, 'chartered_permit': 10.0, 'spectral_permit': 0.0, 'basic_permit': 0.0, 'arsenal_ticket': 0.0}",特许寻访凭证：10,0.0
