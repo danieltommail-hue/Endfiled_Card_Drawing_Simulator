@@ -118,7 +118,7 @@ class Environment:
             if self.headhunting.up_character.name=='basic':
                 self.stock.add_stock(**self.stock.calculate_basic_ten_pulls())
             else:
-                self.stock.add_stock(**self.stock.calculate_pull())
+                self.stock.add_stock(**self.stock.calculate_ten_pulls())
             pulled_characters=self.headhunting.pull_ten_times()
         self.record.add_record('character',self.headhunting.up_character.name,\
                                pulled_characters,self.get_time())
